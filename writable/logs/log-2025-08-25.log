@@ -37,3 +37,586 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 02:48:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/template.php"
+[Method: GET, Route: jabatan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 4 APPPATH\Controllers\JabatanController.php(20): view('jabatan/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 02:49:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/template.php"
+[Method: GET, Route: jabatan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 4 APPPATH\Controllers\JabatanController.php(20): view('jabatan/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 02:49:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/template.php"
+[Method: GET, Route: jabatan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 4 APPPATH\Controllers\JabatanController.php(20): view('jabatan/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 02:50:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jabatan.php"
+[Method: GET, Route: jabatan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jabatan.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan', [], true)
+ 3 APPPATH\Controllers\JabatanController.php(20): view('jabatan')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 02:51:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: jabatan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\JabatanController.php(20): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 02:52:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: jabatan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\JabatanController.php(20): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 02:52:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/template.php"
+[Method: GET, Route: jabatan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 4 APPPATH\Controllers\JabatanController.php(20): view('jabatan/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 02:54:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "jabatan/welcome.php"
+[Method: GET, Route: jabatan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jabatan/welcome.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/welcome', [], true)
+ 3 APPPATH\Controllers\JabatanController.php(20): view('jabatan/welcome')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:06:09 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 18.
+ 1 APPPATH\Views\jabatan\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:06:54 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 18.
+ 1 APPPATH\Views\jabatan\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:06:56 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 18.
+ 1 APPPATH\Views\jabatan\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:08:31 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 19.
+ 1 APPPATH\Views\jabatan\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:08:32 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 19.
+ 1 APPPATH\Views\jabatan\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:09:11 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 19.
+ 1 APPPATH\Views\jabatan\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:10:03 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 19.
+ 1 APPPATH\Views\jabatan\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:10:04 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 19.
+ 1 APPPATH\Views\jabatan\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:10:05 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 19.
+ 1 APPPATH\Views\jabatan\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:13:35 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 18.
+ 1 APPPATH\Views\jabatan\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:18:12 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 22.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 4 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:20:48 --> ErrorException: Undefined property: stdClass::$deskripsi_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 23.
+ 1 APPPATH\Views\jabatan\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$deskripsi_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:20:50 --> ErrorException: Undefined property: stdClass::$deskripsi_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 23.
+ 1 APPPATH\Views\jabatan\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$deskripsi_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:22:28 --> ErrorException: Undefined property: stdClass::$deskripsi_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 23.
+ 1 APPPATH\Views\jabatan\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$deskripsi_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:23:31 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 22.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 4 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:23:41 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 22.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 4 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:43:21 --> ErrorException: Undefined property: stdClass::$id_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 28.
+ 1 APPPATH\Views\jabatan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:44:12 --> ErrorException: Undefined property: stdClass::$id_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 28.
+ 1 APPPATH\Views\jabatan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:45:18 --> ErrorException: Undefined property: stdClass::$id_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 28.
+ 1 APPPATH\Views\jabatan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:45:33 --> ErrorException: Undefined property: stdClass::$id_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 28.
+ 1 APPPATH\Views\jabatan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:45:58 --> ErrorException: Undefined property: stdClass::$id_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 28.
+ 1 APPPATH\Views\jabatan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:47:09 --> ErrorException: Undefined property: stdClass::$id_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 28.
+ 1 APPPATH\Views\jabatan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:47:15 --> ErrorException: Undefined property: stdClass::$id_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 28.
+ 1 APPPATH\Views\jabatan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:47:17 --> ErrorException: Undefined property: stdClass::$id_jabatan
+[Method: GET, Route: jabatan]
+in APPPATH\Views\jabatan\index.php on line 28.
+ 1 APPPATH\Views\jabatan\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\jabatan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/index', [], true)
+ 5 APPPATH\Controllers\JabatanController.php(21): view('jabatan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 03:57:13 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: jabatan/edit/2]
+in APPPATH\Views\jabatan\edit.php on line 10.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('jabatan/edit', [], true)
+ 4 APPPATH\Controllers\JabatanController.php(44): view('jabatan/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JabatanController->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JabatanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 04:50:17 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: pegawai/create]
+in APPPATH\Views\pegawai\create.php on line 28.
+ 1 APPPATH\Views\pegawai\create.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\create.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pegawai/create', [], true)
+ 5 APPPATH\Controllers\PegawaiController.php(25): view('pegawai/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 04:54:37 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: pegawai/create]
+in APPPATH\Views\pegawai\create.php on line 29.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pegawai/create', [], true)
+ 4 APPPATH\Controllers\PegawaiController.php(29): view('pegawai/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 05:05:59 --> ErrorException: Undefined property: stdClass::$telpon
+[Method: GET, Route: pegawai]
+in APPPATH\Views\pegawai\index.php on line 27.
+ 1 APPPATH\Views\pegawai\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$telpon', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pegawai/index', [], true)
+ 5 APPPATH\Controllers\PegawaiController.php(23): view('pegawai/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 05:08:11 --> ErrorException: Undefined property: stdClass::$jabatan
+[Method: GET, Route: pegawai]
+in APPPATH\Views\pegawai\index.php on line 28.
+ 1 APPPATH\Views\pegawai\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pegawai/index', [], true)
+ 5 APPPATH\Controllers\PegawaiController.php(23): view('pegawai/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 05:09:43 --> ErrorException: Undefined property: stdClass::$jabatan_nama
+[Method: GET, Route: pegawai]
+in APPPATH\Views\pegawai\index.php on line 28.
+ 1 APPPATH\Views\pegawai\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jabatan_nama', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pegawai/index', [], true)
+ 5 APPPATH\Controllers\PegawaiController.php(23): view('pegawai/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 05:10:54 --> ErrorException: Undefined property: stdClass::$jabatan_nama
+[Method: GET, Route: pegawai]
+in APPPATH\Views\pegawai\index.php on line 28.
+ 1 APPPATH\Views\pegawai\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jabatan_nama', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pegawai/index', [], true)
+ 5 APPPATH\Controllers\PegawaiController.php(23): view('pegawai/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
+CRITICAL - 2025-08-25 05:16:29 --> ErrorException: Undefined variable $jabatan
+[Method: GET, Route: pegawai/edit/3]
+in APPPATH\Views\pegawai\edit.php on line 28.
+ 1 APPPATH\Views\pegawai\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jabatan', 'C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\USER\\crud-manajemen-data-ci4\\app\\Views\\pegawai\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('pegawai/edit', [], true)
+ 5 APPPATH\Controllers\PegawaiController.php(52): view('pegawai/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PegawaiController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PegawaiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\USER\\crud-manajemen-data-ci4\\public\\index.php')
