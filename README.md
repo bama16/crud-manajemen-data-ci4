@@ -66,35 +66,37 @@ Gunakan di root project kamu:
 
 ```bash
 php spark
+```
 🔑 Perintah yang Sering Dipakai
 ▶️ Jalankan Server
-bash
-Salin
+
+```bash
 Edit
 php spark serve
 👉 Menjalankan server lokal di http://localhost:8080.
-
+```
 📂 Generate File
-bash
-Salin
+
+```bash
 Edit
 php spark make:controller NamaController   # Buat Controller
 php spark make:model NamaModel             # Buat Model
 php spark make:migration CreateUsersTable  # Buat Migration
 php spark make:seeder UserSeeder           # Buat Seeder
 php spark make:entity NamaEntity           # Buat Entity
-
+```
 🗄️ Migration & Database
-bash
-Salin
+
+```bash
 Edit
 php spark migrate            # Jalankan semua migration
 php spark migrate:rollback   # Batalkan migration terakhir
 php spark db:seed UserSeeder # Jalankan seeder
-
+```
 📋 Routing
-bash
-Salin
+
+```bash
 Edit
 php spark routes
+```
 👉 Menampilkan semua route yang terdaftar.
