@@ -17,7 +17,7 @@ class JabatanController extends BaseController
 
     public function index()
     {
-        //
+        return view('jabatan/index');
     }
     public function create()
     {

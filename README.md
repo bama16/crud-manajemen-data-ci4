@@ -71,14 +71,14 @@ php spark
 ▶️ Jalankan Server
 
 ```bash
-Edit
 php spark serve
-👉 Menjalankan server lokal di http://localhost:8080.
 ```
+👉 Menjalankan server lokal di http://localhost:8080.
+
+
 📂 Generate File
 
 ```bash
-Edit
 php spark make:controller NamaController   # Buat Controller
 php spark make:model NamaModel             # Buat Model
 php spark make:migration CreateUsersTable  # Buat Migration
@@ -88,7 +88,6 @@ php spark make:entity NamaEntity           # Buat Entity
 🗄️ Migration & Database
 
 ```bash
-Edit
 php spark migrate            # Jalankan semua migration
 php spark migrate:rollback   # Batalkan migration terakhir
 php spark db:seed UserSeeder # Jalankan seeder
@@ -96,7 +95,6 @@ php spark db:seed UserSeeder # Jalankan seeder
 📋 Routing
 
 ```bash
-Edit
 php spark routes
 ```
 👉 Menampilkan semua route yang terdaftar.
